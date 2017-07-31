@@ -226,7 +226,7 @@ When finding lane lines, we don't need to check the sky and the hills.
 
 Roughly speaking, we are interested in the area surrounded by the red lines below:
 
-<img src='test_images_output/region-of-interest_images.png' width='50%'/>
+<img src='test_images_output/region_of_interest_images.png' width='50%'/>
 
 So, we exclude outside the region of interest by apply a mask.
 
