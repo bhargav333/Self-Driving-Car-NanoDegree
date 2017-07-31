@@ -304,7 +304,7 @@ list_of_lines = list(map(hough_lines, roi_images))
 
 Let's draw the lines onto the original images.  
 
-![png](test_images_output/output_36_0.png)
+![png](test_images_output/output.png)
 
 
 ### Averaging and Extrapolating Lines
@@ -403,7 +403,7 @@ for image, lines in zip(test_images, list_of_lines):
 ```
 
 
-![png](images/output_42_0.png)
+![png](test_images_output/final_output.png)
 
 
 ## Video Clips
@@ -466,9 +466,9 @@ The video inputs are in test_videos folder.  The video outputs are generated in 
 %time process_video('challenge.mp4', 'extra.mp4')
 ```
 
-- [White Lanes Video](https://youtu.be/lc1QNDvjReA)
-- [Yellow Lanes Video](https://youtu.be/lvLLalGfy9M)
-- [Dark Shades Video](https://youtu.be/HTPEWC-fjCQ)
+- [White Lanes Video](--to be included)
+- [Yellow Lanes Video](--to be included)
+- [Dark Shades Video](--to be included)
 
 ## Conclusion
 
