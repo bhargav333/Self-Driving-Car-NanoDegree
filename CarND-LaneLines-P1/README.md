@@ -112,7 +112,7 @@ def select_white_yellow(image):
 white_yellow_images = list(map(select_white_yellow, test_images))
 ```
 
-![png](images/output_19_0.png)
+![png](https://github.com/naokishibuya/car-finding-lane-lines/raw/master/images/hsl-hsv.png)
 
 
 For the white color, 
