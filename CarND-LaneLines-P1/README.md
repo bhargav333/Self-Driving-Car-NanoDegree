@@ -66,7 +66,7 @@ def select_rgb_white_yellow(image):
     return masked
 ```
 
-![png](images/output_9_0.png)
+![png](test_images_output/filter_color_images.png)
 
 
 It looks pretty good except the two in which the yellow lines are not clear due to the dark shade from the tree on the left.
@@ -154,7 +154,7 @@ def convert_gray_scale(image):
 gray_images = list(map(convert_gray_scale, white_yellow_images))
 ```
 
-![png](images/output_23_0.png)
+![png](test_images_output/grayscale_images.png)
 
 
 ### Gaussian Smoothing (Gaussian Blur)
@@ -184,7 +184,7 @@ The bigger `kearnel_size` value requires more time to process. It is not noticea
 blurred_images = list(map(lambda image: apply_smoothing(image), gray_images))
 ```
 
-![png](images/output_27_0.png)
+![png](test_images_output/gaussian_blur_images.png)
 
 
 ### Edge Detection
@@ -217,7 +217,7 @@ def detect_edges(image, low_threshold=50, high_threshold=150):
 edge_images = list(map(lambda image: detect_edges(image), blurred_images))
 ```
 
-![png](images/output_29_0.png)
+![png](test_images_output/canny_edge_detection_images.png)
 
 
 ## Region of Interest Selection
@@ -226,7 +226,7 @@ When finding lane lines, we don't need to check the sky and the hills.
 
 Roughly speaking, we are interested in the area surrounded by the red lines below:
 
-<img src='images/region-of-interest.png' width='50%'/>
+<img src='test_images_output/region-of-interest_images.png' width='50%'/>
 
 So, we exclude outside the region of interest by apply a mask.
 
@@ -265,7 +265,6 @@ def select_region(image):
 roi_images = list(map(select_region, edge_images))
 ```
 
-![png](images/output_31_0.png)
 
 
 Now we have lane lines but we need to recognize them as lines.  Especially, two lines: the left lane and the right lane.
@@ -305,7 +304,7 @@ list_of_lines = list(map(hough_lines, roi_images))
 
 Let's draw the lines onto the original images.  
 
-![png](images/output_36_0.png)
+![png](test_images_output/output_36_0.png)
 
 
 ### Averaging and Extrapolating Lines
