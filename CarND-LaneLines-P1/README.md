@@ -15,7 +15,7 @@ In this project you will detect lane lines in images using Python and OpenCV.  O
 # Finding Lane Lines on the Road
 ***
 
-[![png](images/dark-shades.png)](video--to be included)
+
 [Video Link](to be included)
 
 [Digest on Medium](to be included)
@@ -35,7 +35,7 @@ Finally, I applied all the techniques to process video clips to find lane lines 
 
 Let's load and examine the test images.
 
-![png](images/output_6_0.png)
+![png](test_images_output/original.png)
 
 
 Lines are in white or yellow.  A white lane is a series of alternating dots and short lines, which we need to detect as one line.
