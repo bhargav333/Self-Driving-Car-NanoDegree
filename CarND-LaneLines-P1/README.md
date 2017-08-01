@@ -459,7 +459,7 @@ The video inputs are in test_videos_output folder.  The video outputs are genera
 
 %time process_video('solidYellowLeft.mp4', 'yellow.mp4')
 
-%time process_video('challenge.mp4', 'chalenge.mp4')
+%time process_video('challenge.mp4', 'challenge.mp4')
 ```
 
 - [White Lanes Video](--to be included)
