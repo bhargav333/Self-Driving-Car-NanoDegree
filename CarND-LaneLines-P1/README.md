@@ -452,14 +452,14 @@ def process_video(video_input, video_output):
     processed.write_videofile(os.path.join('output_videos', video_output), audio=False)
 ```
 
-The video inputs are in test_videos folder.  The video outputs are generated in output_videos folder.
+The video inputs are in test_videos_output folder.  The video outputs are generated in output_videos folder.
 
 ```python
 %time process_video('solidWhiteRight.mp4', 'white.mp4')    
 
 %time process_video('solidYellowLeft.mp4', 'yellow.mp4')
 
-%time process_video('challenge.mp4', 'extra.mp4')
+%time process_video('challenge.mp4', 'chalenge.mp4')
 ```
 
 - [White Lanes Video](--to be included)
