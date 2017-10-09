@@ -35,7 +35,7 @@ The OpenCV functions findChessboardCorners and calibrateCamera are the backbone 
 
 <img src='./output_images/camera_calibirate.png'/>
 
-### Pipeline (single images)i
+### Pipeline (single images)
 
 #### 1. Provide an example of a distortion-corrected image.
 
