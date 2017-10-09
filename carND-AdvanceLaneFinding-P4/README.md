@@ -1,11 +1,9 @@
 
-### Writeup Template
+##**Advanced Lane Finding Project**
 
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
----
-
-**Advanced Lane Finding Project**
+###**Overview**
 
 The goals / steps of this project are the following:
 
@@ -17,9 +15,6 @@ The goals / steps of this project are the following:
 * Determine the curvature of the lane and vehicle position with respect to center.
 * Warp the detected lane boundaries back onto the original image.
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
-
-
-
 ---
 
 ### Writeup / README
