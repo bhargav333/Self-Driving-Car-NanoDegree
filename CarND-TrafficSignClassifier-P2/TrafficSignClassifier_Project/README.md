@@ -139,7 +139,7 @@ The code for making predictions on my final model is located in the 38th cell of
 Here are the results of the prediction:
 ![alt text][image5]
 
-The model was able to correctly guess 8 of the 10 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of 93.2 %
+The model was able to correctly guess 10 of the 10 traffic signs
 
 __**Comments on Preformance of small test set**__
 
