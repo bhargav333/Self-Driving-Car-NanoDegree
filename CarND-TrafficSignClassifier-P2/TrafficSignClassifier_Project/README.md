@@ -125,7 +125,7 @@ My final model results were:
 
 ### Test a Model on New Images
 
-Here are ten German traffic signs that I found on the web:
+Here are eight German traffic signs that I found on the web:
 
 ![alt text][image4]
 
