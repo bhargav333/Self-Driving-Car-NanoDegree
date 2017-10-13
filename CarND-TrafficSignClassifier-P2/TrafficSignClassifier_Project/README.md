@@ -143,7 +143,7 @@ The model was able to correctly guess 10 of the 10 traffic signs
 
 __**Comments on Preformance of small test set**__
 
-* Spatial Transformer Network was successfully focus on the spacific reagion of interset and asly denoising most of images.
+* Spatial Transformer Network was successfully focus on the spacific reagion of interset and denoising most of images.
 
 this visualization can help understand basic features learnt by network to prediect its outputs, aslo help detecting of overfitting if happen 
 
