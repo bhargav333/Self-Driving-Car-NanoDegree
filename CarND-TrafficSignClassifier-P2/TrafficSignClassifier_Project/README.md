@@ -50,7 +50,7 @@ Even in validation set, the lowest image count per class (such as stop sign) is 
 
 Figure shwing Histogram of regeenrated dataset
 
-![alt text][image2]
+![alt text][image3]
 
 ### Design and Test a Model Architecture
 
